@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Urban_Ladder_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testNG.XtentReportAdapter"/>
+  </listeners>
+  <test thread-count="5" name="UrbanLadderTestCases(failed)">
+    <parameter name="URL" value="https://urbanladder.com/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="testNG.MainTestng">
+        <methods>
+          <include name="Go_To_GiftCardsSection"/>
+          <include name="launch"/>
+          <include name="close"/>
+          <include name="Fill_Form_with_Valid_data"/>
+          <include name="Fill_Form_with_Invalid_info"/>
+          <include name="Enter_Amount"/>
+          <include name="Capture_ErrorMessage"/>
+          <include name="Validate_Entered_Details"/>
+        </methods>
+      </class> <!-- testNG.MainTestng -->
+    </classes>
+  </test> <!-- UrbanLadderTestCases(failed) -->
+</suite> <!-- Failed suite [Urban_Ladder_Suite] -->

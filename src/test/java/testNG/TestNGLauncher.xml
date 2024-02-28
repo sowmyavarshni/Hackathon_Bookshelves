@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Urban_Ladder_Suite">
+ <listeners>
+    <listener class-name = "testNG.XtentReportAdapter" />
+  </listeners>
+  <test name="UrbanLadderTestCases">
+    <parameter name = "Browser" value= "Chrome"/>
+  <parameter name = "URL" value= "https://urbanladder.com/"/>
+    <classes>
+      <class name="testNG.MainTestng"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite --> 

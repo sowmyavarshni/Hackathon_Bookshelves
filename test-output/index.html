@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Urban_Ladder_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Urban_Ladder_Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Urban_Ladder_Suite" class="navigator-link ">
+                    <span>C:\Users\2303845\Downloads\HACKATHON\HACKATHON_PROJ\src\test\java\testNG\TestNGLauncher.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Urban_Ladder_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Urban_Ladder_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Urban_Ladder_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Urban_Ladder_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Urban_Ladder_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Urban_Ladder_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,  5 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Urban_Ladder_Suite" class="hide-methods failed suite-Urban_Ladder_Suite"> (hide)</a> <!-- hide-methods failed suite-Urban_Ladder_Suite -->
+                      <a href="#" panel-name="suite-Urban_Ladder_Suite" class="show-methods failed suite-Urban_Ladder_Suite"> (show)</a> <!-- show-methods failed suite-Urban_Ladder_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Urban_Ladder_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Go_To_GiftCardsSection">Go_To_GiftCardsSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Urban_Ladder_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Urban_Ladder_Suite" class="hide-methods skipped suite-Urban_Ladder_Suite"> (hide)</a> <!-- hide-methods skipped suite-Urban_Ladder_Suite -->
+                      <a href="#" panel-name="suite-Urban_Ladder_Suite" class="show-methods skipped suite-Urban_Ladder_Suite"> (show)</a> <!-- show-methods skipped suite-Urban_Ladder_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Urban_Ladder_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Capture_ErrorMessage">Capture_ErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Enter_Amount">Enter_Amount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Fill_Form_with_Invalid_info">Fill_Form_with_Invalid_info</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Fill_Form_with_Valid_data">Fill_Form_with_Valid_data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Validate_Entered_Details">Validate_Entered_Details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Urban_Ladder_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Urban_Ladder_Suite" class="hide-methods passed suite-Urban_Ladder_Suite"> (hide)</a> <!-- hide-methods passed suite-Urban_Ladder_Suite -->
+                      <a href="#" panel-name="suite-Urban_Ladder_Suite" class="show-methods passed suite-Urban_Ladder_Suite"> (show)</a> <!-- show-methods passed suite-Urban_Ladder_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Urban_Ladder_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Apply_Slider">Apply_Slider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Exclude_and_Sort">Exclude_and_Sort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Print_Submenu_items_and_productinfo">Print_Submenu_items_and_productinfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Urban_Ladder_Suite" title="testNG.MainTestng" class="method navigator-link" hash-for-method="Searching_Bookshelves">Searching_Bookshelves</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Urban_Ladder_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Urban_Ladder_Suite" class="panel Urban_Ladder_Suite">
+          <div class="suite-Urban_Ladder_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNG.MainTestng</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Go_To_GiftCardsSection">
+                  </a> <!-- Go_To_GiftCardsSection -->
+                  <span class="method-name">Go_To_GiftCardsSection</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testNG.MainTestng.Go_To_GiftCardsSection(MainTestng.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Urban_Ladder_Suite-class-failed -->
+          <div class="suite-Urban_Ladder_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testNG.MainTestng</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Capture_ErrorMessage">
+                  </a> <!-- Capture_ErrorMessage -->
+                  <span class="method-name">Capture_ErrorMessage</span>
+                  <div class="stack-trace">java.lang.Throwable: Method MainTestng.Capture_ErrorMessage()[pri:7, instance:testNG.MainTestng@6e9319f] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Enter_Amount">
+                  </a> <!-- Enter_Amount -->
+                  <span class="method-name">Enter_Amount</span>
+                  <div class="stack-trace">java.lang.Throwable: Method MainTestng.Enter_Amount()[pri:5, instance:testNG.MainTestng@6e9319f] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Fill_Form_with_Invalid_info">
+                  </a> <!-- Fill_Form_with_Invalid_info -->
+                  <span class="method-name">Fill_Form_with_Invalid_info</span>
+                  <div class="stack-trace">java.lang.Throwable: Method MainTestng.Fill_Form_with_Invalid_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testNG.MainTestng@6e9319f] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Fill_Form_with_Valid_data">
+                  </a> <!-- Fill_Form_with_Valid_data -->
+                  <span class="method-name">Fill_Form_with_Valid_data</span>
+                  <div class="stack-trace">java.lang.Throwable: Method MainTestng.Fill_Form_with_Valid_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:testNG.MainTestng@6e9319f] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Entered_Details">
+                  </a> <!-- Validate_Entered_Details -->
+                  <span class="method-name">Validate_Entered_Details</span>
+                  <div class="stack-trace">java.lang.Throwable: Method MainTestng.Validate_Entered_Details()[pri:9, instance:testNG.MainTestng@6e9319f] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Urban_Ladder_Suite-class-skipped -->
+          <div class="suite-Urban_Ladder_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.MainTestng</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Apply_Slider">
+                  </a> <!-- Apply_Slider -->
+                  <span class="method-name">Apply_Slider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Exclude_and_Sort">
+                  </a> <!-- Exclude_and_Sort -->
+                  <span class="method-name">Exclude_and_Sort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Print_Submenu_items_and_productinfo">
+                  </a> <!-- Print_Submenu_items_and_productinfo -->
+                  <span class="method-name">Print_Submenu_items_and_productinfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Searching_Bookshelves">
+                  </a> <!-- Searching_Bookshelves -->
+                  <span class="method-name">Searching_Bookshelves</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Urban_Ladder_Suite-class-passed -->
+        </div> <!-- panel Urban_Ladder_Suite -->
+        <div panel-name="test-xml-Urban_Ladder_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2303845\Downloads\HACKATHON\HACKATHON_PROJ\src\test\java\testNG\TestNGLauncher.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Urban_Ladder_Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;testNG.XtentReportAdapter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UrbanLadderTestCases&quot;&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://urbanladder.com/&quot;/&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG.MainTestng&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UrbanLadderTestCases --&gt;
+&lt;/suite&gt; &lt;!-- Urban_Ladder_Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Urban_Ladder_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Urban_Ladder_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UrbanLadderTestCases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Urban_Ladder_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Urban_Ladder_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Urban_Ladder_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Urban_Ladder_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Urban_Ladder_Suite');
+function tableData_Urban_Ladder_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Apply_Slider')
+data.setCell(0, 2, 'testNG.MainTestng')
+data.setCell(0, 3, 11732);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Print_Submenu_items_and_productinfo')
+data.setCell(1, 2, 'testNG.MainTestng')
+data.setCell(1, 3, 8604);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Exclude_and_Sort')
+data.setCell(2, 2, 'testNG.MainTestng')
+data.setCell(2, 3, 5786);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Searching_Bookshelves')
+data.setCell(3, 2, 'testNG.MainTestng')
+data.setCell(3, 3, 1960);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Go_To_GiftCardsSection')
+data.setCell(4, 2, 'testNG.MainTestng')
+data.setCell(4, 3, 1176);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Capture_ErrorMessage')
+data.setCell(5, 2, 'testNG.MainTestng')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Fill_Form_with_Invalid_info')
+data.setCell(6, 2, 'testNG.MainTestng')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Validate_Entered_Details')
+data.setCell(7, 2, 'testNG.MainTestng')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Fill_Form_with_Valid_data')
+data.setCell(8, 2, 'testNG.MainTestng')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Enter_Amount')
+data.setCell(9, 2, 'testNG.MainTestng')
+data.setCell(9, 3, 0);
+window.suiteTableData['Urban_Ladder_Suite']= { tableData: data, tableDiv: 'times-div-Urban_Ladder_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-Urban_Ladder_Suite">
+              </div> <!-- times-div-Urban_Ladder_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Urban_Ladder_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Urban_Ladder_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Urban_Ladder_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Urban_Ladder_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.MainTestng</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch(Chrome, https://urbanladder.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Searching_Bookshelves</span>
+                <span class="method-start">7410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Apply_Slider</span>
+                <span class="method-start">9715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Exclude_and_Sort</span>
+                <span class="method-start">21633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Print_Submenu_items_and_productinfo</span>
+                <span class="method-start">27637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Go_To_GiftCardsSection</span>
+                <span class="method-start">36435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Enter_Amount</span>
+                <span class="method-start">37805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Fill_Form_with_Invalid_info</span>
+                <span class="method-start">37807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Capture_ErrorMessage</span>
+                <span class="method-start">37810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Fill_Form_with_Valid_data</span>
+                <span class="method-start">37813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_Entered_Details</span>
+                <span class="method-start">37815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">37817 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

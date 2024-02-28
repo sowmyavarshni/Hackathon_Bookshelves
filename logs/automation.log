@@ -1,0 +1,44 @@
+15:50:11.489 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:50:12.457 [main] INFO  testNG.MainTestng - Starting test method: Fill_Form_with_Invalid_info
+15:50:14.898 [main] INFO  testNG.MainTestng - Completed test method: Fill_Form_with_Invalid_info
+15:50:15.179 [main] INFO  testNG.MainTestng - Starting test method: Capture_ErrorMessage
+15:50:15.246 [main] INFO  testNG.MainTestng - Completed test method: Capture_ErrorMessage
+15:50:15.514 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:50:15.515 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:50:15.553 [main] INFO  testNG.MainTestng - Starting test method: Fill_Form_with_Valid_data
+15:50:18.213 [main] INFO  testNG.MainTestng - Completed test method: Fill_Form_with_Valid_data
+15:50:18.515 [main] INFO  testNG.MainTestng - Starting test method: Validate_Entered_Details
+15:50:33.253 [main] INFO  testNG.MainTestng - Completed test method: Validate_Entered_Details
+16:31:23.724 [main] INFO  testNG.MainTestng - ******* Starting *********
+16:31:31.501 [main] INFO  testNG.MainTestng - Starting test method: Searching_Bookshelves
+16:31:37.050 [main] INFO  testNG.MainTestng - Completed test method: Searching_Bookshelves
+16:31:37.557 [main] INFO  testNG.MainTestng - Starting test method: Apply_Slider
+16:31:49.608 [main] INFO  testNG.MainTestng - Completed test method: Apply_Slider
+16:31:49.811 [main] INFO  testNG.MainTestng - Starting test method: Exclude_and_Sort
+16:31:55.592 [main] INFO  testNG.MainTestng - Completed test method: Exclude_and_Sort
+16:31:55.883 [main] INFO  testNG.MainTestng - Starting test method: Print_Submenu_items_and_productinfo
+16:32:04.495 [main] INFO  testNG.MainTestng - Completed test method: Print_Submenu_items_and_productinfo
+16:32:04.683 [main] INFO  testNG.MainTestng - Starting test method: Go_To_GiftCardsSection
+16:32:05.877 [main] ERROR testNG.MainTestng - Test failed
+16:32:40.540 [main] INFO  testNG.MainTestng - ******* Starting *********
+16:32:48.689 [main] INFO  testNG.MainTestng - Starting test method: Searching_Bookshelves
+16:32:51.775 [main] INFO  testNG.MainTestng - Completed test method: Searching_Bookshelves
+16:32:52.191 [main] INFO  testNG.MainTestng - Starting test method: Apply_Slider
+16:33:03.934 [main] INFO  testNG.MainTestng - Completed test method: Apply_Slider
+16:33:04.149 [main] INFO  testNG.MainTestng - Starting test method: Exclude_and_Sort
+16:33:09.922 [main] INFO  testNG.MainTestng - Completed test method: Exclude_and_Sort
+16:33:10.133 [main] INFO  testNG.MainTestng - Starting test method: Print_Submenu_items_and_productinfo
+16:33:18.680 [main] INFO  testNG.MainTestng - Completed test method: Print_Submenu_items_and_productinfo
+16:33:18.873 [main] INFO  testNG.MainTestng - Starting test method: Go_To_GiftCardsSection
+16:33:20.028 [main] ERROR testNG.MainTestng - Test failed
+16:35:06.410 [main] INFO  testNG.MainTestng - ******* Starting *********
+16:35:13.813 [main] INFO  testNG.MainTestng - Starting test method: Searching_Bookshelves
+16:35:15.765 [main] INFO  testNG.MainTestng - Completed test method: Searching_Bookshelves
+16:35:16.112 [main] INFO  testNG.MainTestng - Starting test method: Apply_Slider
+16:35:27.843 [main] INFO  testNG.MainTestng - Completed test method: Apply_Slider
+16:35:28.030 [main] INFO  testNG.MainTestng - Starting test method: Exclude_and_Sort
+16:35:33.814 [main] INFO  testNG.MainTestng - Completed test method: Exclude_and_Sort
+16:35:34.034 [main] INFO  testNG.MainTestng - Starting test method: Print_Submenu_items_and_productinfo
+16:35:42.637 [main] INFO  testNG.MainTestng - Completed test method: Print_Submenu_items_and_productinfo
+16:35:42.832 [main] INFO  testNG.MainTestng - Starting test method: Go_To_GiftCardsSection
+16:35:44.007 [main] ERROR testNG.MainTestng - Test failed
